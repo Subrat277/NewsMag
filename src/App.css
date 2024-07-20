@@ -1,0 +1,53 @@
+
+.card {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+ 
+  .card:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .btn {
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  .nav-link {
+    cursor: pointer;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: #ff5733; 
+    border-bottom: 2px solid #ff5733; 
+  }
+  
+  
+  .nav-link:hover {
+    color: #ff5733; 
+  }
+  
+  
